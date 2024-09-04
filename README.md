@@ -1,3 +1,3 @@
 # Page-001
 
-🙇🏻‍♂️Personal proyect of a web for personal use
+🙇🏻‍♂️Personal proyect of a website
