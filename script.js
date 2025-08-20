@@ -26,11 +26,11 @@ noButton.addEventListener("click", function () {
   }
 });
 
-/*function handleYesClick() {
+function handleYesClick() {
   titleElement.innerHTML = "Vamoooh!! :3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
-}*/
+}
 function resizeAntButton(){
   const computedStyle = window.getComputedStyle(yesButton);
   const fontSize = parseFloat(computedStyle.getPropertyValue("font-size"));
@@ -50,11 +50,11 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "parte 1",
-    "p2",
-    "p3",
-    "p4",
-    "p5",
-    "pfinal",
+    "No",
+    "No",
+    "No",
+    "No",
+    "No",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
